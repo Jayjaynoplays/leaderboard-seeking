@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "nodemon --exec babel-node src/index.js"
+        "dev": "nodemon --exec babel-node src/index.js",
+        "run2": "babel-node src/index.js"
     },
     "devDependencies": {
         "@babel/cli": "^7.10.4",
@@ -29,5 +30,10 @@
         "prettier": "^2.3.0"
     },
     "author": "",
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "edge-paths": "^2.2.1",
+        "puppeteer": "^10.4.0",
+        "uuid": "^8.3.2"
+    }
 }
